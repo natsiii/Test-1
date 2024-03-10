@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 5px 0;
+        }
+
+        h2 {
+            margin: 10px 0;
+        }
+
+        .main-content {
+            width: 60%;
+            float: left;
+        }
+
+        .sidebar {
+            width: 35%;
+            float: right;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        address {
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Natalia Nalewajk</h1>
+            <p>Pielęgniarka</p>
+        </header>
+        <section class="main-content">
+            <h2>O mnie</h2>
+            <p>Ukończyłam studia pielęgniarskie na UWM w Olsztynie. Aktualnie jestem na 1 roku specjalizacji pediatrycznej. Dodatkowo studiuję informatykę zaocznie na SGGW w Warszawie</p>
+            <h2>Doświadczenie zawodowe</h2>
+            <ul>
+                <li><strong> DSK UCK WUM</strong> Pielęgniarka, Data rozpoczęcia - Data zakończenia</li>
+                <!-- Dodaj więcej elementów listy w razie potrzeby -->
+            </ul>
+            <h2>Wykształcenie</h2>
+            <ul>
+                <li><strong>Tytuł:Licencjat Pielęgniarstwo</strong> UWM w Olsztynie, Data rozpoczęcia - Data zakończenia</li>
+                <!-- Dodaj więcej elementów listy w razie potrzeby -->
+            </ul>
+        </section>
+        <aside class="sidebar">
+            <h2>Dodatkowe informacje</h2>
+            <p>Tutaj możesz umieścić dodatkowe informacje.</p>
+            <h2>Informacje kontaktowe</h2>
+            <address>
+                Imię i Nazwisko xxxxx<br>
+                Adres xxxxx<br>
+                Telefon xxxxx<br>
+                Emai lxxxxxx
+            </address>
+        </aside>
+    </div>
+</body>
+</html>
+
+
